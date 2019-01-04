@@ -7,6 +7,10 @@
           src="https://piccdn.luojilab.com/fe-oss/default/MTU0NDYwMzIzNjA0.png"
         >
         <img
+          id="groundTexture"
+          src="https://piccdn.luojilab.com/fe-oss/default/MTUzMjYwNTkwNTkz.png"
+        >
+        <img
           id="skyTexture"
           src="https://piccdn.luojilab.com//fe-oss/igetcms/1544680944911/%E5%AE%98%E7%BD%912018%E6%97%B6%E9%97%B4%E7%9A%84%E6%9C%8B%E5%8F%8B.jpg"
         >
@@ -38,7 +42,7 @@
       >
       </a-light>
       <a-plane
-        color="#fff"
+        src="#groundTexture"
         rotation="-90 0 0"
         height="100"
         width="100"
